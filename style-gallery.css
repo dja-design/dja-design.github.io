@@ -1,0 +1,78 @@
+/* GALLERY SECTION */
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 16px 16px;
+}
+
+#gallery-container modal-image {
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.overlay-image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-container {
+	position: relative;
+	width: 100%;
+    height: min-content;
+    margin-bottom: 0rem;
+}
+
+.overlay-container .overlay-mask {
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0 0 0 / 0%);
+	color: rgb(0 0 0 / 0%);
+	transition-property: color, background-color;
+	transition-duration: 0.2s, 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.overlay-container:hover .overlay-mask {
+	background-color: rgb(0 0 0 / 70%);
+	color: rgb(255 255 255 / 100%);
+}
+
+.overlay-container .overlay-content {
+	text-decoration: none;
+    color:rgb(255 255 255 / 0%)
+}
+
+.overlay-container:hover .overlay-content {
+	text-decoration: none;
+    color:rgb(255 255 255 / 100%)
+}
+
+.overlay-content{
+    display: flex;
+    flex-direction: column;
+    columns: 1;
+}
+
+.overlay-mask{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.proj-title-year{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.proj-title{
+    line-height: 1.9;
+    font-size: 3rem;
+    font-weight: 600;
+}

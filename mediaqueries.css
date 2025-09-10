@@ -1,0 +1,25 @@
+
+@media screen and (max-width: 1900px) {
+    #gallery {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .proj-title-year{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    
+    .proj-title{
+       line-height: 1.9;
+        font-size: 2rem;
+        font-weight: 600;
+    }   
+}
+
+@media screen and (max-width: 1000px) {
+    #about-container{
+        display: block;
+    }
+}
