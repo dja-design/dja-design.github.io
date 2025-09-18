@@ -16,23 +16,32 @@
         font-size: 2rem;
         font-weight: 600;
     }   
+/* Mobile or narrow screen Nav */
     .desktop-nav{
-        display: grid;
+        margin-top: 1rem;
     }
     .nav-links{
         display: block;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .nav-links > * {
-        margin-bottom: .5rem;
         font-size: 1.25rem;
+        padding-bottom: .5rem;
+    }
+    
+    .nav-links__active{
+        text-underline-offset: .3rem; 
     }
 }
 
 @media screen and (max-width: 1000px) {
     #about-container{
         display: block;
+    }
+
+    #profile-picture-container{
+        max-width: 315px;
     }
 }
 
