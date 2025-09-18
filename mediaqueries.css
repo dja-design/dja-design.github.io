@@ -16,6 +16,18 @@
         font-size: 2rem;
         font-weight: 600;
     }   
+    .desktop-nav{
+        display: grid;
+    }
+    .nav-links{
+        display: block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .nav-links > * {
+        margin-bottom: .5rem;
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -23,3 +35,4 @@
         display: block;
     }
 }
+
