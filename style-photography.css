@@ -37,6 +37,7 @@
 .overlay-content{
     position: absolute;
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
     bottom: 1.5rem;
     left: 2rem;
