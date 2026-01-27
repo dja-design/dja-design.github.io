@@ -81,7 +81,7 @@ img{
 .overlay-container, .overlay-container-span{
 	position: relative;
 	width: 100%;
-    height: min-content;
+    height: auto;
     margin-bottom: 1rem;
 }
 
