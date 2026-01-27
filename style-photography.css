@@ -61,7 +61,7 @@
 img{
     object-fit: contain;
     height: auto;
-    align-self: center;
+    align-self: top;
 }
 
 #photogallery-container modal-image {
