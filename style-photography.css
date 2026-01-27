@@ -1,0 +1,106 @@
+/* PHOTO PAGE INTRO TEXT */
+.page-intro{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.page-title{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.page-subtitle{
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.page-text{
+    margin-bottom: 100px;
+    font-size: 1.25rem;
+}
+
+
+
+/* PHOTO PAGE GALLERY */
+
+.photogallery-masonry{
+    column-count: 2; 
+    column-width: 500px;
+    gap: 1rem;
+}
+
+.overlay-content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 1.5rem;
+    left: 2rem;
+    right: 2rem;
+}
+
+.overlay-container-span{
+    column-span: all;
+    margin-top: 1rem;
+}
+
+.camera-details{
+    font-weight: 500;
+}
+
+.photo-details{
+    text-align: right;
+}
+
+/* METADATA OVERLAY */
+
+#photogallery-container modal-image {
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overlay-image{
+    display: block;
+    width: 100%;
+    height: fit-content;
+}
+
+.overlay-container, .overlay-container-span{
+	position: relative;
+	width: 100%;
+    height: min-content;
+    margin-bottom: 1rem;
+}
+
+.overlay-container .overlay-mask, .overlay-container-span .overlay-mask{
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgb(0 0 0 / 0%);
+	color: rgb(0 0 0 / 0%);
+	transition-property: color, background-color;
+	transition-duration: 0.3s, 0.3s;
+	transition-timing-function: ease-in-out;
+}
+
+.overlay-container:hover .overlay-mask, .overlay-container-span:hover .overlay-mask {
+	background-color: rgb(0 0 0 / 50%);
+	color: rgb(255 255 255 / 100%);
+}
+
+.overlay-container .overlay-content, .overlay-container-span .overlay-content {
+	text-decoration: none;
+    color:rgb(255 255 255 / 0%)
+}
+
+.overlay-container:hover .overlay-content, .overlay-container-span:hover .overlay-content {
+	text-decoration: none;
+    color:rgb(255 255 255 / 100%)
+}

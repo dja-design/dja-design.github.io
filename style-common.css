@@ -21,7 +21,7 @@ main{
     min-height: 72vh;
 }
 
-nav, main, #footer-container{
+nav, main, .page-button-container, #footer-container{
     width: min(80%, 2400px);
     margin-left: auto;
     margin-right: auto;
@@ -87,6 +87,19 @@ a:hover{
 
 .logo:hover{
     font-weight: 800;
+}
+
+/* PAGE BUTTONS */
+
+.page-button-container{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.page-button{
+    font-size: 1.25rem;
 }
 
 /* FOOTER */

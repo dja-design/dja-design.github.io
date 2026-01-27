@@ -5,3 +5,45 @@ width: 100%;
 .project-image{
     width: 100%;
 }
+
+/* PHOTO PAGE INTO TEXT */
+.page-intro{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.page-title{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.page-subtitle{
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.about-text{
+    display: block;
+    /* margin-right: 10vw; */
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
+
+.page-text{
+    margin-bottom: 100px;
+    font-size: 1.25rem;
+}
+
+/* PHOTO PAGE GALLERY */
+
+.photogallery-container{
+    display: flex;
+}
