@@ -37,7 +37,6 @@
 .overlay-content{
     position: absolute;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     bottom: 1.5rem;
     left: 2rem;
@@ -70,6 +69,7 @@
     display: block;
     width: 100%;
     height: fit-content;
+    align-self: center;
 }
 
 .overlay-container, .overlay-container-span{
