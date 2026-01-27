@@ -58,10 +58,15 @@
 
 /* METADATA OVERLAY */
 
+img{
+    object-fit: contain;
+    height: auto;
+    align-self: center;
+}
+
 #photogallery-container modal-image {
     max-width: 100%;
     min-width: 100%;
-    height: auto;
     margin-left: auto;
     margin-right: auto;
 }
