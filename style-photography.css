@@ -32,6 +32,7 @@
     column-count: 2; 
     column-width: 500px;
     gap: 1rem;
+    align-items: flex-start;
 }
 
 .overlay-content{
