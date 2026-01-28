@@ -74,9 +74,11 @@ img{
 
 .overlay-image{
     display: block;
-    width: 100%;
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     align-self: center;
+    object-fit: contain;
+    -webkit-object-fit: contain;
 }
 
 .overlay-container, .overlay-container-span{
