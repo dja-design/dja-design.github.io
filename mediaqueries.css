@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) {
     #gallery {
         grid-template-columns: auto;
     }
@@ -15,7 +15,16 @@
        line-height: 1.9;
         font-size: 2rem;
         font-weight: 600;
-    }   
+    }  
+    
+    .page-intro{
+        width: 80%;
+    }
+    .page-title{
+    justify-self: center;
+    font-weight: 500;
+    font-size: 2rem;
+    }
 
 /* Mobile or narrow screen Nav */
     .desktop-nav{

@@ -59,12 +59,6 @@
 
 /* METADATA OVERLAY */
 
-img{
-    object-fit: contain;
-    height: auto;
-    align-self: top;
-}
-
 #photogallery-container modal-image {
     max-width: 100%;
     min-width: 100%;
