@@ -1,3 +1,4 @@
+/* SINGLE COLUMN ON GALLERY PAGES */
 
 @media screen and (max-width: 1500px) {
     #gallery {
@@ -5,28 +6,15 @@
     }
 }
 
-@media screen and (max-width: 900px) {
-    .proj-title-year{
-        font-size: 1rem;
-        font-weight: 200;
-    }
-    
-    .proj-title{
-       line-height: 1.9;
-        font-size: 2rem;
-        font-weight: 600;
-    }  
-    
-    .page-intro{
-        width: 80%;
-    }
-    .page-title{
-    justify-self: center;
-    font-weight: 500;
-    font-size: 2rem;
-    }
+/* MIDSIZE SCREEEN RESPONSE */
 
-/* Mobile or narrow screen Nav */
+
+/* MOBILE OR NARROW SCREEN RESPONSE */
+
+@media screen and (max-width: 1000px) {
+
+    /* NAV */
+
     .desktop-nav{
         margin-top: 1rem;
     }
@@ -48,9 +36,50 @@
         display: none;
     }
 
-}
+    /* PAGE TEXT SHRINKING */
 
-@media screen and (max-width: 1000px) {
+    .proj-title-year{
+        font-size: 1rem;
+        font-weight: 200;
+    }
+    
+    .proj-title{
+        line-height: 1.9;
+        font-size: 2rem;
+        font-weight: 600;
+    }  
+    
+    .page-intro{
+        width: 80%;
+    }
+
+    .intro-text, .page-conclusion{
+        max-width: 100%;
+    }
+
+    .page-title{
+    font-weight: 500;
+    font-size: 2rem;
+    }
+
+    /* IMAGE SHRINKING */
+
+    .image-small{
+        max-width: max(200px,40%);
+    }
+
+    /* SINGLE COLUMN */
+
+    .content-container, .horizontal-flex-container, .vertical-flex-container{
+        display: block;
+    }
+
+    .flex-item-auto, .flex-item-25, .flex-item-40, .flex-item-50, .flex-item-60, .flex-item-75{
+       margin-bottom: 10vh;
+    }
+
+    /* ABOUT PAGE SINGLE */
+
     #about-container{
         display: block;
     }
@@ -59,4 +88,5 @@
         max-width: 315px;
     }
 }
+
 

@@ -1,49 +1,123 @@
-#project-container{
-width: 100%;
+/*PROJECT TEXT FORMATTING */
+
+.intro-text{
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 50%;
 }
 
-.project-image{
-    width: 100%;
-}
-
-/* PHOTO PAGE INTO TEXT */
-.page-intro{
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
 .page-title{
-    justify-self: center;
     font-weight: 500;
     font-size: 3rem;
 }
 
 .page-subtitle{
-    justify-self: center;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 300;
 }
 
-.about-text{
-    display: block;
-    /* margin-right: 10vw; */
-    margin-top: auto;
-    margin-bottom: auto;
+.page-text{
+    font-size: 1.1rem;
+    max-width: 100%;
+}
+
+.page-conclusion{
+    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1000px;
+    max-width: 50%;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
 }
 
-.page-text{
-    margin-bottom: 100px;
-    font-size: 1.25rem;
+/* PROJECT IMAGE FORMATTING */
+
+.image, video{
+    width: 100%;
+    object-fit: contain;
+    -webkit-object-fit: contain;
 }
 
-/* PHOTO PAGE GALLERY */
+.image-small{
+    max-width: max(200px,60%);
+    object-fit: contain;
+    -webkit-object-fit: contain;
+}
 
-.photogallery-container{
+.image-cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+}
+
+.image-centered{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#hero{
+    max-height: 600px;
+}
+
+/* FLEX */
+
+.content-container{
     display: flex;
+    flex-direction: column;
+    gap: 15vh;
+}
+
+.vertical-flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10vh;
+}
+
+.horizontal-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10vw;
+}
+
+.horizontal-flex-container-secondary{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.small-gap{
+    gap: 3rem;
+}
+
+.flex-item-auto{
+    flex: auto;
+}
+
+.flex-item-75{
+    flex: 75%;
+}
+
+.flex-item-60{
+    flex: 60%;
+}
+
+.flex-item-50{
+    flex: 50%;
+}
+
+.flex-item-40{
+    flex: 40%;
+}
+
+.flex-item-25{
+    flex: 25%;
 }
